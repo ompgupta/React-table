@@ -52,7 +52,7 @@ const Tableinfo=() =>{
           return currVal;
         }
         else if(
-          currVal.mareks.toLowerCase().includes(filterData)
+          currVal.marks.toLowerCase().includes(filterData)
         ) 
         {
           return currVal;
@@ -64,7 +64,7 @@ const Tableinfo=() =>{
        <td>{currEle.name}</td>
        <td>{currEle.class}</td>
        <td>{currEle.gender}</td>
-       <td>{currEle.mareks}</td>
+       <td>{currEle.marks}</td>
      </tr>
       })
       }
