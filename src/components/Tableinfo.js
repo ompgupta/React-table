@@ -28,31 +28,31 @@ const Tableinfo=() =>{
         if(filterData===""){
           return currVal;
         } else if(
-          currVal.id.toLowerCase().includes(filterData)
+          currVal.id.toLowerCase().includes(filterData.toLowerCase())
         ) 
         {
           return currVal;
         }
         else if(
-          currVal.name.toLowerCase().includes(filterData)
+          currVal.name.toLowerCase().includes(filterData.toLowerCase())
         ) 
         {
           return currVal;
         }
         else if(
-          currVal.class.toLowerCase().includes(filterData)
+          currVal.class.toLowerCase().includes(filterData.toLowerCase())
         ) 
         {
           return currVal;
         }
         else if(
-          currVal.gender.toLowerCase().includes(filterData)
+          currVal.gender.toLowerCase().includes(filterData.toLowerCase())
         ) 
         {
           return currVal;
         }
         else if(
-          currVal.marks.toLowerCase().includes(filterData)
+          currVal.marks.toLowerCase().includes(filterData.toLowerCase())
         ) 
         {
           return currVal;
